@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Notes = () => {
-  const baseUrl = 'https://mern-crud-notes.vercel.app//api/notes';
+  const baseUrl = 'https://mern-crud-notes.vercel.app/api/notes';
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
