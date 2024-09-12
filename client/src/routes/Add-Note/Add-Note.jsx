@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const AddNNote = () => {
-  const baseUrl = `${import.meta.env.VITE_SERVER_URL}/api/notes`;
+  const baseUrl = 'https://mern-crud-notes.vercel.app/api/notes';
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);
